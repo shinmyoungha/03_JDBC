@@ -89,7 +89,7 @@ public class JDBCExample6 {
 				
 			} else { // INSERT 실패
 				System.out.println("추가 실패");
-				conn.rollback(); // 실패 시 ROLLBACK 아아아
+				conn.rollback(); // 실패 시 ROLLBACK 으아악 하기싫어
 			}
 			
 		} catch(Exception e) {
